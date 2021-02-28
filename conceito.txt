@@ -1,0 +1,11 @@
+
+
+    Dados que deve-se ter para paginar.
+
+    Total de itens no banco
+    Quantidade por pagina
+    Total de pagina = Quantidade de itens no banco / Quantidade por pagina
+    Pagina atual = (PAGINA DEFINIDA - 1) * Quantidade por pagina;
+
+    Fazer a consulta usando o LIMIT
+    SELECT * FROM ... LIMIT , Quantidade por pagina;
